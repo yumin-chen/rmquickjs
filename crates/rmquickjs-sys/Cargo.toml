@@ -1,0 +1,17 @@
+[package]
+name = "rmquickjs-sys"
+description = "Low-level MicroQuickJS bindings for Rust"
+version = "1.0.0"
+edition = "2024"
+readme = "../../README.md"
+license = "MIT"
+repository = "https://github.com/nuskey8/rmquickjs"
+documentation = "https://docs.rs/rmquickjs"
+keywords = ["mquickjs", "quickjs", "javascript"]
+categories = ["api-bindings", "no-std"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.72.1"
+cc = "1.2.60"
